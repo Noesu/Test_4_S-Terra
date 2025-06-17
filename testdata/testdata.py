@@ -1,5 +1,5 @@
-from checks import file_exists, dir_exists, is_directory
-from setup import create_file, create_directory
+from utils.checks import file_exists, dir_exists, is_directory
+from utils.setup import create_file, create_directory
 
 
 TST_DIR = "test_dir"
@@ -12,8 +12,7 @@ TST_FILE2 = "test_file2.txt"
 СТРУКТУРА ДАННЫХ ДЛЯ ТЕСТА:
     команда, параметры,
     (команды подготовки тестовой среды),
-    (тесты результата выполнения команды),
-    ожидаемая ошибка или False
+    (тесты результата выполнения команды)
 """
 
 testdata = [
